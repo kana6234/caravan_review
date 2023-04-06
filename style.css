@@ -4,14 +4,29 @@
   box-sizing: border-box;
 }
 
-header {
-  width: 100%;
-  height: 120px;
+a {
+  text-decoration: none;
 }
 
-.logo {
-  width: 100%;
-  height: 70px;
+header {
+  width: 90%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header>h1 {
+  font-size: 32px;
+}
+
+.nav-list {
+  padding: 10px 0;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
 }
 
 nav {
@@ -49,4 +64,11 @@ nav {
 footer {
   width: 100%;
   height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+footer>p {
+  color: #fff;
 }
